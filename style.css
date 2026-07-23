@@ -1,0 +1,22 @@
+/* Importação da fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body { 
+    font-family: 'Inter', sans-serif; 
+}
+
+/* Animação de flutuação suave para o smartphone */
+.float-anim { 
+    animation: float 6s ease-in-out infinite; 
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Efeito de brilho (glow) atrás da imagem usando o laranja da marca */
+.glow-effect {
+    background: radial-gradient(circle, rgba(255,138,0,0.25) 0%, rgba(45,45,51,0) 70%);
+}
